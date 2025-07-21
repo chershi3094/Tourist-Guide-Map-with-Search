@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tourist Guide Map (India)</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="controls">
+  <input type="text" id="search" placeholder="e.g., temples in Varanasi" />
+  <button onclick="runSearch()">Search</button>
+</div>
+
+<div id="map"></div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<!-- OSM to GeoJSON converter -->
+<script src="https://unpkg.com/osmtogeojson/osmtogeojson.js"></script>
+<!-- Custom JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
